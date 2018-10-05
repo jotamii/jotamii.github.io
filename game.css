@@ -1,8 +1,8 @@
 .game {
-    height: 300px;
+    height: 600px;
     position: relative;
 }
-
+/* 
 .game-content {
     display: flex;
     justify-content: center;
@@ -11,9 +11,16 @@
     height: 300px;
     width: 800px;
     background-color:  #063c4d85;
+} */
+
+.game-content {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
 }
 
-.img {
-    width: 50%;
+img {
+    width: 40%;
+    height: 40%;
     
 }
