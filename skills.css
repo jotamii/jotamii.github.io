@@ -1,0 +1,14 @@
+.skills {
+    height: 300px;
+        position: relative;
+}
+
+.skills-content {
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 120px;
+    height: 300px;
+    width: 800px;
+    background-color:  #063c4d85;
+}

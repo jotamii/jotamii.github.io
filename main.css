@@ -1,0 +1,27 @@
+body, html {
+    height: 100%;
+    background-image: url('ocean.png');
+    display: block;
+}
+
+.main {
+    background-size: cover;
+    display: -webkit-inline-box;
+    
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+    color: white;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 120px;
+    height: 300px;
+    width: 800px;
+    background-color:  #063c4d85;
+}
