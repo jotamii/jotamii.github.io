@@ -1,8 +1,39 @@
-interests {
+.interests {
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(218deg, #14a9d5, #0990b7, #02323f);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 59s ease infinite;
+-moz-animation: AnimationName 59s ease infinite;
+animation: AnimationName 59s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 60%}
+    50%{background-position:100% 41%}
+    100%{background-position:0% 60%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 60%}
+    50%{background-position:100% 41%}
+    100%{background-position:0% 60%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 60%}
+    50%{background-position:100% 41%}
+    100%{background-position:0% 60%}
+}
 }
 
-.interests-content {
+img {
+    width: 50%;
+    height: 50%;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+/* .interests-content {
     display: flex;
     justify-content: center;
     margin-left: 25%;
@@ -10,7 +41,7 @@ interests {
     height: 300px;
     width: 800px;
     background-color:  #063c4d85;
-}
+} */
 
 .ball {
     display: inline-block;
@@ -74,10 +105,10 @@ interests {
         background: radial-gradient(circle at 50% 80%, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 74%, white 80%, white 84%, rgba(255, 255, 255, 0) 100%); }
   
   .stage {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     display: inline-block;
-    margin: 20px;
+    margin: 50px;
     -webkit-perspective: 1200px;
     -moz-perspective: 1200px;
     -ms-perspective: 1200px;
