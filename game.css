@@ -32,7 +32,7 @@ img {
 }
 
 .button {
-    position: absolute;
+    position: inherit;
     top: 230px;
     left: 240px;
     padding: 10px;
