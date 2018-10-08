@@ -1,6 +1,7 @@
 .interests {
     height: 300px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background: linear-gradient(218deg, #14a9d5, #0990b7, #02323f);
