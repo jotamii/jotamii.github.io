@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Memory Game</title>
+
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+</head>
+
+<body>
+    <div class="memory-game">
+        <div class="bar">
+            
+            <div class="moves">Moves: 0</div>
+            <div class="score">Card score: 0</div>
+        </div>
+        <div class="introScreen">
+            <div class="introScreenContent">Memory game</div>
+            <div id="btnStart" class="button">Start</div>
+        </div>
+        <div class="endScreen">
+            <div class="endScreenContent">Game over!</div>
+            <div id="btnEnd" class="buttonend">Play again</div>
+            <div class="endScore"></div>
+        </div>
+        <div class="memory-board">
+            <div class="memory-card" data-framework="cow">
+                <img class="front-face" src="1.png" alt="Cow">
+                <img class="back-face" src="tree2.png" alt="Back">
+            </div>
+
+            <div class="memory-card" data-framework="cow">
+                <img class="front-face" src="1.png" alt="Cow">
+                <img class="back-face" src="tree2.png" alt="Back">
+            </div>
+
+            <div class="memory-card" data-framework="owl">
+                <img class="front-face" src="2.png" alt="Owl">
+                <img class="back-face" src="tree2.png" alt="Back">
+            </div>
+
+            <div class="memory-card" data-framework="owl">
+                <img class="front-face" src="2.png" alt="Owl">
+                <img class="back-face" src="tree2.png" alt="Back">
+            </div>
+
+            <div class="memory-card" data-framework="bird">
+                <img class="front-face" src="3.png" alt="Bird">
+                <img class="back-face" src="tree2.png" alt="Back">
+            </div>
+
+
+            <div class="memory-card" data-framework="bird">
+                <img class="front-face" src="3.png" alt="Bird">
+                <img class="back-face" src="tree2.png" alt="Back">
+            </div>
+
+            <div class="memory-card" data-framework="cat">
+                <img class="front-face" src="4.png" alt="Cat">
+                <img class="back-face" src="tree2.png" alt="Back">
+            </div>
+
+            <div class="memory-card" data-framework="cat">
+                <img class="front-face" src="4.png" alt="Cat">
+                <img class="back-face" src="tree2.png" alt="Back">
+            </div>
+
+            <div class="memory-card" data-framework="deer">
+                <img class="front-face" src="5.png" alt="Deer">
+                <img class="back-face" src="tree2.png" alt="Back">
+            </div>
+
+            <div class="memory-card" data-framework="deer">
+                <img class="front-face" src="5.png" alt="Deer">
+                <img class="back-face" src="tree2.png" alt="Back">
+            </div>
+
+            <div class="memory-card" data-framework="bear">
+                <img class="front-face" src="6.png" alt="Bear">
+                <img class="back-face" src="tree2.png" alt="Back">
+            </div>
+
+            <div class="memory-card" data-framework="bear">
+                <img class="front-face" src="6.png" alt="Bear">
+                <img class="back-face" src="tree2.png" alt="Back">
+            </div>
+
+            <div class="memory-card" data-framework="squirrel">
+                <img class="front-face" src="7.png" alt="Squirrel">
+                <img class="back-face" src="tree2.png" alt="Back">
+            </div>
+
+            <div class="memory-card" data-framework="squirrel">
+                <img class="front-face" src="7.png" alt="Squirrel">
+                <img class="back-face" src="tree2.png" alt="Back">
+            </div>
+
+            <div class="memory-card" data-framework="fox">
+                <img class="front-face" src="8.png" alt="Fox">
+                <img class="back-face" src="tree2.png" alt="Back">
+            </div>
+
+            <div class="memory-card" data-framework="fox">
+                <img class="front-face" src="8.png" alt="Fox">
+                <img class="back-face" src="tree2.png" alt="Back">
+            </div>
+
+            <div class="memory-card" data-framework="pig">
+                <img class="front-face" src="9.png" alt="Pig">
+                <img class="back-face" src="tree2.png" alt="Back">
+            </div>
+
+            <div class="memory-card" data-framework="pig">
+                <img class="front-face" src="9.png" alt="Pig">
+                <img class="back-face" src="tree2.png" alt="Back">
+            </div>
+
+            <div class="memory-card" data-framework="lion">
+                <img class="front-face" src="10.png" alt="Lion">
+                <img class="back-face" src="tree2.png" alt="Back">
+            </div>
+
+            <div class="memory-card" data-framework="lion">
+                <img class="front-face" src="10.png" alt="Lion">
+                <img class="back-face" src="tree2.png" alt="Back">
+            </div>
+
+            <div class="memory-card" data-framework="monkey">
+                <img class="front-face" src="11.png" alt="Monkey">
+                <img class="back-face" src="tree2.png" alt="Back">
+            </div>
+
+            <div class="memory-card" data-framework="monkey">
+                <img class="front-face" src="11.png" alt="Monkey">
+                <img class="back-face" src="tree2.png" alt="Back">
+            </div>
+
+            <div class="memory-card" data-framework="rabbit">
+                <img class="front-face" src="12.png" alt="Rabbit">
+                <img class="back-face" src="tree2.png" alt="Back">
+            </div>
+
+            <div class="memory-card" data-framework="rabbit">
+                <img class="front-face" src="12.png" alt="Rabbit">
+                <img class="back-face" src="tree2.png" alt="Back">
+            </div>
+        </div>
+    </div>
+    <script src="./game.js"></script>
+    <script src="./buttons.js"></script>
+</body>
+
+</html>
