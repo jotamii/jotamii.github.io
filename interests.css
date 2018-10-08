@@ -27,11 +27,11 @@ animation: AnimationName 59s ease infinite;
 }
 }
 
-img {
+.interests img {
     width: 50%;
     height: 50%;
-    margin-left: 35px;
-    margin-top: 30px;
+    margin-left: 40px;
+    margin-top: 40px;
 }
 /* .interests-content {
     display: flex;

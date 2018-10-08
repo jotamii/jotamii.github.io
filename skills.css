@@ -10,5 +10,9 @@
     margin-top: 120px;
     height: 300px;
     width: 800px;
-    background-color:  #063c4d85;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 25px;
+    color: white;
+    /* background-color:  #063c4d85; */
 }
